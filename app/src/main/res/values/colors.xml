@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#DF6521</color>
+    <color name="dark_blue">#242235</color>
+    <color name="white">#FFFFFF</color>
+    <color name="second_text_color">#757575</color>
+    <color name="light_gray">#E1E1E3</color>
+    <!--Dark theme.-->
+    <color name="d_khaki">#495141</color>
+    <color name="d_khaki_light">#98A888</color>
+    <color name="d_khaki_extra_light">#D0DDC4</color>
+    <color name="d_khaki_hard">#2A2E25</color>
+    <color name="d_gold">#F1BC1E</color>
+    <color name="d_yellow">#63620C</color>
+    <color name="dark_back">#121212</color>
+</resources>

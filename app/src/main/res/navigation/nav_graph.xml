@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentEnterNumber">
+
+    <fragment
+        android:id="@+id/fragmentEnterNumber"
+        android:name="test.factaboutnumber.activity.fragmentEnterNumber.FragmentEnterNumber"
+        android:label="fragment_enter_number"
+        tools:layout="@layout/fragment_enter_number" >
+        <action
+            android:id="@+id/action_fragmentEnterNumber_to_fragmentInterestFact"
+            app:destination="@id/fragmentInterestFact" />
+        <argument
+            android:name="number"
+            app:argType="test.factaboutnumber.model.NumberDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentInterestFact"
+        android:name="test.factaboutnumber.activity.fragmentEnterNumber.fragmentInterestFact.FragmentInterestFact"
+        android:label="fragment_interest_fact"
+        tools:layout="@layout/fragment_interest_fact" >
+        <argument
+            android:name="number"
+            app:argType="test.factaboutnumber.model.NumberDetails" />
+    </fragment>
+</navigation>
